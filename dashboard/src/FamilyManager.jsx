@@ -4,7 +4,7 @@ import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { Users, Plus, Trash2, Upload, Loader, Camera, Sparkles } from 'lucide-react';
 
 // POINT THIS TO YOUR PYTHON BACKEND
-const API_URL = "http://localhost:8000/api/generate-description";
+const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000") + "/api/generate-description";
 
 export default function FamilyManager({ prefillDescription }) {
   const [family, setFamily] = useState({});

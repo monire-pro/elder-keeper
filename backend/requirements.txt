@@ -6,3 +6,5 @@ firebase-admin
 elevenlabs
 websockets
 SpeechRecognition
+pydub
+pydantic
