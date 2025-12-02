@@ -1,0 +1,5 @@
+booxclash-learn-google_api.json
+.env
+__pycache__/
+*.pyc  
+instance/ 
