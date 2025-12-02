@@ -90,7 +90,7 @@ function App() {
         <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-slate-800 flex items-center gap-2">
-              ElderKeep Family
+              ElderKeep Family Dashboard
             </h1>
             <p className="text-slate-500 mt-1 font-medium">Monitoring: Arthur (Father)</p>
           </div>
