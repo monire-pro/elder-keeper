@@ -158,11 +158,10 @@ export default function Page() {
              </View>
         ) : (
             <Image 
-            source={{ uri: 'https://img.freepik.com/free-photo/portrait-senior-woman-smiling_23-2148740030.jpg' }} 
+            source={require('../logo-elderkeep.png')} 
             style={globalStyles.avatar} 
             />
         )}
-        <Text style={globalStyles.title}>ElderKeep</Text>
       </View>
 
       <View style={globalStyles.statusContainer}>
