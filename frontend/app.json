@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ElderKeep",
-    "slug": "elderkeep",
+    "slug": "frontend",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./logo-elderkeep.png",
@@ -50,6 +50,12 @@
         "projectId": "02ca10fd-2c88-4e74-937a-91507fdb5141"
       }
     },
-    "owner": "kondwanic"
+    "owner": "kondwanic",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/02ca10fd-2c88-4e74-937a-91507fdb5141"
+    }
   }
 }

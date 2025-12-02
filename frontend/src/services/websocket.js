@@ -1,6 +1,6 @@
 // Replace with your Laptop's IP Address (Keep port 8000)
 // Example: 'ws://192.168.1.45:8000/ws/chat'
-const WS_URL = 'ws://192.168.236.137:8000/ws/chat';
+const WS_URL = 'ws://elder-keeper.onrender.com/ws/chat';
 
 class WebSocketService {
   constructor() {
